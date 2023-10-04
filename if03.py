@@ -7,4 +7,13 @@ def main(a):
     Returns:
         a: integer
     """
-    return
+    if a>0:
+        a=a+1
+    if a==0:
+        a=10
+    if a<0:
+        a=a-2
+    return a
+print(main(1))
+print(main(0))
+print(main(-1))
